@@ -1,7 +1,7 @@
 "use strict";
 const  OpenAIApi = require("openai");
 // const {CHAT_KEY} = require('../secret')
-
+const {CHAT_KEY} = require('../config')
 
 // Initialize the OpenAIApi client with the configuration
 const openai = new OpenAIApi({
