@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useContext } from "react";
 
-const BASE_URL = "http://localhost:3001";
+const BASE_URL = import.meta.env.VITE_APP_BASE_URL || "http://localhost:3001";
 
 class port3000Api {
     static token;
