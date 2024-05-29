@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === "production") {
     db = new Client({
       // host : '/var/run/postgresql',
       // database: getDatabaseUri(),
-        connectionString : "postgresql:///musicbeats",
+        connectionString : process.env.DATABASE_URL,
       ssl: {
         rejectUnauthorized: false
       }
@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === "production") {
     db = new Client({
       // host : '/var/run/postgresql',
       // database: getDatabaseUri()
-        connectionString : "postgresql:///musicbeats",
+        connectionString : process.env.DATABASE_URL,
     });
   }
   
