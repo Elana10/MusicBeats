@@ -19,4 +19,4 @@ const APPLE_PRIVATE_KEY = process.env.APPLE_PRIVATE_KEY
 const KID = process.env.KID
 const TEAM_ID = process.env.TEAM_ID
 
-module.exports = {PORT, BASE_URL, SECRET_JWT_KEY, BCRYPT_WORK_FACTOR, getDatabaseUri}
+module.exports = {PORT, BASE_URL, SECRET_JWT_KEY, BCRYPT_WORK_FACTOR, getDatabaseUri, CHAT_KEY, APPLE_PRIVATE_KEY, KID, TEAM_ID}
