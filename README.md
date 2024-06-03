@@ -1,6 +1,6 @@
 # MusicBeats
 
-Dployed: https://musicbeats-frontend2.onrender.com
+Deployed: https://musicbeats-frontend2.onrender.com
 
 MusicBeats is a web application that generates playlists of music with either fast or slow tempos. It leverages the Apple Music API and ChatGPT API to provide users with personalized playlists. Users can sign in or create an account, authorize their Apple Music account, create playlists, listen to them, and edit or view other users' playlists.
 
